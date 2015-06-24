@@ -95,7 +95,7 @@ umicmsModuleGenerator.prototype.askFor = function askFor() {
     this.name              = props.name;
     this.safeModuleName    = slug(this.name, {
       replacement: '_',
-      lower: true
+      lower: false
     });
     this.moduleDescription = props.moduleDescription;
     this.authorName        = props.authorName;
